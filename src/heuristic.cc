@@ -14,11 +14,12 @@
 
 #include "n2/heuristic.h"
 
-#include <xmmintrin.h>
+//#include <xmmintrin.h>
 
 #include <vector>
 
 #include "n2/min_heap.h"
+#include "n2/simd.h"
 
 namespace n2 {
 

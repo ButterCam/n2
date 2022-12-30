@@ -30,6 +30,7 @@
 #include "n2/max_heap.h"
 #include "n2/min_heap.h"
 #include "n2/utils.h"
+#include "n2/simd.h"
 
 namespace n2 {
 

@@ -14,11 +14,12 @@
 
 #include "n2/hnsw_search_impl.h"
 
-#include <xmmintrin.h>
+//#include <xmmintrin.h>
 
 #include "n2/max_heap.h"
 #include "n2/min_heap.h"
 #include "n2/utils.h"
+#include "n2/simd.h"
 
 namespace n2 {
 
